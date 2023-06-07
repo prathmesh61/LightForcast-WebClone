@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 62.5%;
+  -webkit-font-smoothing: inherit;
+}
+
+/* header */
+#main {
+  height: 100%;
+  background: linear-gradient(180deg, #000000 0%, hsl(21, 100%, 6%) 100%);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  opacity: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 80px;
+  object-fit: cover;
+}
+.logo span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: azure;
+}
+.head_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.head_link span {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: azure;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  /* padding: 0 40px; */
+
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 90%;
+}
+
+.hero h1 {
+  color: #f0d094;
+  font-size: 8rem;
+  opacity: 0;
+}
+
+.hero .h1-white {
+  color: azure;
+}
+
+.hero .hero_img {
+  height: 70%;
+  border-radius: 30px;
+
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+
+  object-fit: cover;
+}
+
+/* sticky section */
+.sticky-cont {
+  background-color: #0a0605;
+  height: 200%;
+  width: 100%;
+}
+.wrapper-sticky {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.left {
+  width: 50%;
+}
+.left img {
+  height: 70%;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+}
+.right {
+  width: 50%;
+}
+
+/* sticky */
+.cont h3 {
+  font-size: 4rem;
+  color: azure;
+  font-weight: 700;
+}
+.cont span {
+  font-size: 1.6rem;
+  color: #c04901;
+  font-weight: 700;
+}
+.cont-1 {
+  height: 70vh;
+}
+
+.cont-2 {
+  height: 70vh;
+}
+.cont-3 {
+  height: 70vh;
+}
