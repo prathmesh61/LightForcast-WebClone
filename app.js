@@ -46,8 +46,8 @@ s1.to(".bottom-cont .bottom-img", {
 // t1.to(".hero .hero_img", { x: 60, delay: 1, duration: 5 });
 ScrollTrigger.create({
   trigger: " .left img",
-  start: "top 100px",
-  end: "+=1200",
+  start: "top 200px",
+  end: "+=1300",
   marker: true,
   pin: true,
 });
